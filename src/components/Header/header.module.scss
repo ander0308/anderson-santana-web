@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  .nav {
+    ul {
+      display: flex;
+      gap: 36px;
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: white;
+          font-weight: 600;
+          &:hover {
+            transition: color 0.3s ease-in-out;
+            color: aquamarine;
+          }
+        }
+      }
+    }
+  }
+}

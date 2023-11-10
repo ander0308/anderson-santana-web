@@ -1,0 +1,36 @@
+.container {
+  padding-bottom: 120px;
+  h3 {
+    color: #898ba8;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 54px;
+  }
+  .jobContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    .gridItem {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #1d2157;
+      height: 4rem;
+      a {
+        color: #898ba8;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+        display: flex;
+        img {
+          width: 24px;
+          height: 24px;
+        }
+        &:hover {
+          color: aquamarine;
+          transition: color .3s ease-in-out;
+        }
+      }
+    }
+  }
+}
