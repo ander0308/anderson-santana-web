@@ -8,7 +8,7 @@ function useRepos(username: string) {
     async function fetchRepositories() {
       try {
         const response = await axios.get(
-          `https://api.github.com/users/${username}/repos?sort=created&direction=desc&per_page=9`
+          `https://api.github.com/users/${username}/repos?sort=created&direction=desc&per_page=12`
         );
         setRepos(response.data);
       } catch (error) {
