@@ -6,7 +6,7 @@ const Footer = () => {
       <p data-aos="fade" data-aos-duration="1500">
         desenvolvido por: <span>Anderson Santana</span>
       </p>
-      <p className={styles.version}>versão: 1.0.1</p>
+      <p className={styles.version}>versão: 1.0.2</p>
       <p data-aos="fade" data-aos-duration="1500">
         2023 - todos os direitos reservados
       </p>
