@@ -6,7 +6,7 @@ export const functions = [
       {
         position: "Software Engineer II",
         description:
-          "Atualmente desenvolvendo soluções em Micro Front-end, utilizando as seguintes tecnologias no dia a dia, GitLab · Nginx · Module Federation · BFF · Requisições em API REST · TypeScript · Docker · React.js · Git · JavaScript · GitHub",
+          "Como Engenheiro de Software Front-end em uma grande instituição bancária, sou responsável por desenvolver projetos e soluções específicas para o público PJ, utilizando tecnologias modernas como Microfrontends com Module Federation, React, TypeScript, Sass, entre outras. Criando interfaces robustas e eficientes. Trabalho em estreita colaboração com um Design System interno, integrando seus componentes para assegurar uma experiência do usuário coesa e de alta qualidade. Além disso, gerencio execuções de Pipelines via Gitlab, Code Reviews e colaboro em alguns momentos com a equipe de DevOps para configurações nos projetos, assegurando uma integração contínua e entrega eficiente. Participando ativamente das cerimônias ágeis, como Dailys, Retro, Plannings e Refinamentos junto ao time de Engenharia de Software, Product Design (PD), Product Manager (PM), Business System Analyst (BSA), colaboro com equipes multifuncionais utilizando o JIRA na busca contínua por melhores soluções e práticas.",
       },
     ],
   },
