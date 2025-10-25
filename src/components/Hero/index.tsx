@@ -21,7 +21,17 @@ const Hero = () => {
       >
         <span></span>
         <p>
-          “ Com mais de uma década na área de tecnologia, evolui de infraestrutura de TI para o desafiador papel de desenvolvedor de software, dedicando-me há três anos. Atualmente como Software Engineer na instituição Sicredi, foco em soluções inovadoras usando React, Typescript e Javascript entre outras, centrando-me em projetos robustos com Microfrontends e integração de APIs. Atuo como Ui Designer e Desenvolvedor freelance, com vasta experiência em tecnologias como HTML, CSS, JavaScript, React.JS, Node.JS, WordPress, Docker, Git e bancos de dados. Busco continuamente aprimorar minha criatividade em interfaces envolventes, sempre em busca de novos desafios e aprendizado constante! 👨🏽‍💻 ”
+          “ Com mais de uma década na área de tecnologia, evolui de
+          infraestrutura de TI para o desafiador papel de desenvolvedor de
+          software, dedicando-me há cinco anos. Atualmente como Software
+          Engineer no Mercado Livre, foco em soluções inovadoras usando React,
+          Typescript e Javascript entre outras, centrando-me em projetos
+          robustos com Microfrontends e integração de APIs. Atuo como Ui
+          Designer e Desenvolvedor freelance, com experiência em tecnologias
+          como HTML, CSS, JavaScript, Typescript, React.JS, Node.JS, Docker, Git
+          e bancos de dados. Busco continuamente aprimorar minha criatividade em
+          interfaces envolventes, sempre em busca de novos desafios e
+          aprendizado constante! 👨🏽‍💻. ”
         </p>
       </div>
     </div>

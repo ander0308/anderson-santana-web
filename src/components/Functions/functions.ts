@@ -1,7 +1,18 @@
 export const functions = [
   {
+    institution: "Mercado Livre",
+    period: "Out 2025 - Atual",
+    positions: [
+      {
+        position: "Software Engineer",
+        description:
+          "Atuo como Engenheiro de Software Front-end no Mercado Livre.",
+      },
+    ],
+  },
+  {
     institution: "Sicredi",
-    period: "Abr 2023 - Atual",
+    period: "Abr 2023 - Set 2025",
     positions: [
       {
         position: "Software Engineer II",
