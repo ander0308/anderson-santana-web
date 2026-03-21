@@ -1,30 +1,77 @@
 :root {
+  /* Tipografia */
   font-family: 'IBM Plex Sans', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #131750;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  /* Tema Dark (padrão) */
+  --bg-primary: #131750;
+  --bg-card: #1d2157;
+  --bg-header: rgba(255, 255, 255, 0.03);
+  --border-header: rgba(255, 255, 255, 0.08);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --border-socials: rgba(135, 137, 166, 0.18);
+  --text-main: rgba(255, 255, 255, 0.87);
+  --text-pure: #ffffff;
+  --text-sub: #b0b4f5;
+  --text-muted: #898ba8;
+  --text-hero-sub: rgba(255, 255, 255, 0.49);
+  --divider-hero: rgba(96, 102, 206, 0.31);
+  --accent: aquamarine;
+  --icon-filter: none;
+  --hero-bg-url: url(/bg-hero.svg);
+
+  color: var(--text-main);
+  background-color: var(--bg-primary);
+  color-scheme: light dark;
+}
+
+[data-theme='light'] {
+  --bg-primary: #F7F8FA;
+  --bg-card: #E8EAF0;
+  --bg-header: rgba(0, 0, 0, 0.04);
+  --border-header: rgba(0, 0, 0, 0.10);
+  --border-color: rgba(0, 0, 0, 0.1);
+  --border-socials: rgba(0, 0, 0, 0.12);
+  --text-main: #111827;
+  --text-pure: #111827;
+  --text-sub: #4B5563;
+  --text-muted: #6B7280;
+  --text-hero-sub: rgba(0, 0, 0, 0.45);
+  --divider-hero: rgba(0, 0, 0, 0.15);
+  --accent: #6366F1;
+  --icon-filter: invert(1) brightness(0) grayscale(1) opacity(0.70);
+  --hero-bg-url: url(/bg-hero-light.svg);
+
+  color: var(--text-main);
+  background-color: var(--bg-primary);
+  color-scheme: light;
+}
+
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  background-color: var(--bg-primary);
 }
 
-h1, h2, h3, h4, h5, h6, p, span {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
   margin: 0;
   padding: 0;
 }
-
-
-

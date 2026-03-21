@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 48px 0px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid var(--border-color);
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -13,12 +13,12 @@
   }
 
   p {
-    color: #b0b4f5;
+    color: var(--text-sub);
     font-size: 16px;
     font-weight: 300;
 
     span {
-      color: #fff;
+      color: var(--text-pure);
       font-weight: 600;
     }
   }

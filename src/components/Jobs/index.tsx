@@ -1,14 +1,7 @@
 import styles from "./jobs.module.scss";
-
 import useRepos from "../../hooks/useRepos";
-
 import iconGithub from "../../assets/bxl-github.svg";
-
-type TRepos = {
-  id: number;
-  html_url: string;
-  name: string;
-};
+import { TRepos } from "../../types/repos";
 
 const Jobs = () => {
   const username = "ander0308";

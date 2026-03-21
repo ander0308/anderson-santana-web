@@ -1,7 +1,12 @@
 import styles from "./header.module.scss";
 import Logo from "/logo.svg";
 
-const Header = () => {
+interface HeaderProps {
+  theme: 'dark' | 'light';
+  onToggleTheme: () => void;
+}
+
+const Header = ({ theme, onToggleTheme }: HeaderProps) => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
@@ -23,6 +28,14 @@ const Header = () => {
             </a>
           </li>
         </ul>
+        <button
+          className={styles.themeToggle}
+          onClick={onToggleTheme}
+          aria-label={theme === 'dark' ? 'Ativar modo claro' : 'Ativar modo escuro'}
+          title={theme === 'dark' ? 'Modo claro' : 'Modo escuro'}
+        >
+          {theme === 'dark' ? '☀️' : '🌙'}
+        </button>
       </nav>
     </header>
   );

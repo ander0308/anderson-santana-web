@@ -1,6 +1,5 @@
 import Footer from "../../components/Footer";
 import Functions from "../../components/Functions";
-import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import Jobs from "../../components/Jobs";
 import Socials from "../../components/Socials";
@@ -13,7 +12,6 @@ const Home = () => {
 
   return (
     <div className={styles.container}>
-      <Header />
       <Hero />
       <Functions />
       <Jobs />

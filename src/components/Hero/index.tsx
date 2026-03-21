@@ -12,7 +12,7 @@ const Hero = () => {
         <img src={imgProfile} alt="Imagem de perfil" />
         <h1>Anderson Santana</h1>
         <h2>Software Engineer </h2>
-        <span>- Front-end React</span>
+        <span>- Front-end</span>
       </div>
       <div
         className={styles.quote}

@@ -6,7 +6,7 @@
   }
 
   h3 {
-    color: #898ba8;
+    color: var(--text-main);
     font-size: 48px;
     font-weight: 300;
     margin-bottom: 54px;
@@ -34,11 +34,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #1d2157;
+      background-color: var(--bg-card);
       height: 4rem;
 
       a {
-        color: #898ba8;
+        color: var(--text-muted);
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
@@ -47,10 +47,11 @@
         img {
           width: 24px;
           height: 24px;
+          filter: var(--icon-filter);
         }
 
         &:hover {
-          color: aquamarine;
+          color: var(--accent);
           transition: color .3s ease-in-out;
         }
       }
