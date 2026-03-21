@@ -1,6 +1,8 @@
 import styles from "./footer.module.scss";
 import pkg from "../../../package.json";
 
+const currentYear = new Date().getFullYear();
+
 const Footer = () => {
   return (
     <footer className={styles.footer}>
@@ -9,7 +11,7 @@ const Footer = () => {
       </p>
       <p className={styles.version}>versão: {pkg.version}</p>
       <p data-aos="fade" data-aos-duration="1500">
-        2023 - todos os direitos reservados
+        {currentYear} - todos os direitos reservados
       </p>
     </footer>
   );
