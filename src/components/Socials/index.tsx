@@ -10,13 +10,13 @@ const Socials = () => {
     <div className={styles.container}>
       <div
         className={styles.titleSocials}
-        data-aos="fade-right"
+        data-aos="fade-down"
         data-aos-duration="1500"
       >
         <h2>Redes Sociais.</h2>
         <span>Entre em contato :)</span>
       </div>
-      <ul data-aos="fade-left" data-aos-duration="1500">
+      <ul data-aos="fade-down" data-aos-duration="1500">
         <li>
           <a href="https://github.com/ander0308/" target="_blank">
             <img src={iconGithub} alt="github" />

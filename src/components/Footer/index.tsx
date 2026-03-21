@@ -9,10 +9,10 @@ const Footer = () => {
       <p>
         desenvolvido por: <span>Anderson Santana</span>
       </p>
-      <p className={styles.version}>versão: {pkg.version}</p>
       <p>
         {currentYear} - todos os direitos reservados
       </p>
+      <p className={styles.version}>versão: {pkg.version}</p>
     </footer>
   );
 };

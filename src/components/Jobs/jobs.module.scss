@@ -1,17 +1,34 @@
 .container {
   padding-bottom: 120px;
 
+  @media (max-width: 768px) {
+    padding-bottom: 60px;
+  }
+
   h3 {
     color: #898ba8;
     font-size: 48px;
     font-weight: 300;
     margin-bottom: 54px;
+
+    @media (max-width: 768px) {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
   }
 
   .jobContent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+
+    @media (max-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
 
     .gridItem {
       display: flex;

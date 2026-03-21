@@ -3,11 +3,26 @@
   display: flex;
   gap: 240px;
 
+  @media (max-width: 1024px) {
+    gap: 80px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 80px 0;
+    flex-direction: column;
+    gap: 40px;
+  }
+
   h3 {
     color: #898ba8;
     font-size: 48px;
     font-weight: 300;
     width: 179px;
+
+    @media (max-width: 768px) {
+      font-size: 36px;
+      width: auto;
+    }
   }
 
   .contentFunctions {
@@ -17,29 +32,50 @@
     .contentFunction {
       margin-bottom: 54px;
 
+      @media (max-width: 768px) {
+        margin-bottom: 40px;
+      }
+
       .titleFunction {
 
         h4 {
           color: #fff;
           font-size: 36px;
           font-weight: 300;
+
+          @media (max-width: 768px) {
+            font-size: 28px;
+          }
         }
 
         span {
           color: #b0b4f5;
           font-size: 16px;
           font-weight: 300;
+
+          @media (max-width: 768px) {
+            font-size: 14px;
+          }
         }
 
         .contentPosition {
           margin-top: 42px;
           margin-left: 75px;
 
+          @media (max-width: 768px) {
+            margin-top: 24px;
+            margin-left: 0;
+          }
+
           h5 {
             color: #fff;
             font-size: 20px;
             font-weight: 300;
             margin-bottom: 8px;
+
+            @media (max-width: 768px) {
+               font-size: 18px;
+            }
           }
 
           p {

@@ -6,7 +6,7 @@ export const functions = [
       {
         position: "Software Engineer",
         description:
-          "Atuo como Engenheiro de Software Front-end no Mercado Livre.",
+          "Atuo no desenvolvimento e aprimoramento de soluções relacionadas às taxas e aos meios de pagamento no ecossistema do Mercado Pago, contribuindo para a eficiência, escalabilidade e experiência dos usuários em uma das maiores empresas de tecnologia, e-commerce e fintechs da América Latina. As principais stacks de trabalho são JavaScript, React, Sass, CSS, Microfrontends, Requisições a APIs e BFFs, além da plataforma interna Fury. Realizo testes unitários, code reviews e participo ativamente de cerimônias ágeis, como dailys, plannings, refinamentos técnicos e retrospectivas. Também somos fortemente estimulados a explorar e incorporar ferramentas baseadas em Inteligência Artificial para aumentar a produtividade e a qualidade das entregas.",
       },
     ],
   },

@@ -10,6 +10,12 @@
   align-items: center;
   padding: 16px 40px;
 
+  @media (max-width: 768px) {
+    padding: 12px 16px;
+    top: 16px;
+    width: calc(100% - 32px);
+  }
+
   /* Efeito Glassmorphism */
   background: rgba(255, 255, 255, 0.03);
   -webkit-backdrop-filter: blur(16px);
@@ -27,6 +33,10 @@
 
     img {
       height: 38px;
+
+      @media (max-width: 768px) {
+        height: 28px;
+      }
     }
   }
 
@@ -37,6 +47,10 @@
       margin: 0;
       padding: 0;
 
+      @media (max-width: 768px) {
+        gap: 16px;
+      }
+
       li {
         list-style: none;
 
@@ -46,6 +60,10 @@
           font-weight: 600;
           font-size: 1rem;
           transition: color 0.3s ease-in-out;
+
+          @media (max-width: 768px) {
+            font-size: 0.85rem;
+          }
 
           &:hover {
             color: aquamarine;

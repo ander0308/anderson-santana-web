@@ -6,7 +6,7 @@ const Hero = () => {
     <div className={styles.hero}>
       <div
         className={styles.infoContent}
-        data-aos="fade-up"
+        data-aos="fade-down"
         data-aos-duration="1000"
       >
         <img src={imgProfile} alt="Imagem de perfil" />
