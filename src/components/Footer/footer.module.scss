@@ -4,15 +4,18 @@
   align-items: center;
   padding: 48px 0px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+
   p {
     color: #b0b4f5;
     font-size: 16px;
     font-weight: 300;
+
     span {
       color: #fff;
       font-weight: 600;
     }
   }
+
   .version {
     font-size: 12px;
   }

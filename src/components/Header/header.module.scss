@@ -1,21 +1,53 @@
 .header {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 30px);
+  max-width: 1024px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px 40px;
+
+  /* Efeito Glassmorphism */
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+
+  z-index: 999;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 38px;
+    }
+  }
+
   .nav {
     ul {
       display: flex;
       gap: 36px;
+      margin: 0;
+      padding: 0;
+
       li {
         list-style: none;
+
         a {
           text-decoration: none;
-          color: white;
+          color: rgba(255, 255, 255, 0.85);
           font-weight: 600;
+          font-size: 1rem;
+          transition: color 0.3s ease-in-out;
+
           &:hover {
-            transition: color 0.3s ease-in-out;
             color: aquamarine;
           }
         }
