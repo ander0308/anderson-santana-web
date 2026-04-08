@@ -9,11 +9,20 @@ function useRepos(username: string) {
 
   React.useEffect(() => {
     async function fetchRepositories() {
+      const cacheKey = `repos_cache_${username}`;
+      const cachedData = sessionStorage.getItem(cacheKey);
+
+      if (cachedData) {
+        setRepos(JSON.parse(cachedData));
+        return;
+      }
+
       try {
         const response = await axios.get(
           `https://api.github.com/users/${username}/repos?sort=created&direction=desc&per_page=9`
         );
         setRepos(response.data);
+        sessionStorage.setItem(cacheKey, JSON.stringify(response.data));
 
         // Usado o mock para ambientes de dev para evitar requisições desnecessárias durante o desenvolvimento:
         // setRepos(mockData as TRepos[]);
