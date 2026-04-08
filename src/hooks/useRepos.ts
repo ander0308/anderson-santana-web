@@ -1,7 +1,7 @@
 import axios from "axios";
 import React from "react";
 import { TRepos } from "../types/repos";
-// import mockData from "../../mock.json";
+import mockData from "../../mock.json";
 
 function useRepos(username: string) {
   const [repos, setRepos] = React.useState<TRepos[]>([]);
@@ -18,7 +18,8 @@ function useRepos(username: string) {
         // Usado o mock para ambientes de dev para evitar requisições desnecessárias durante o desenvolvimento:
         // setRepos(mockData as TRepos[]);
       } catch (error) {
-        console.error("Erro ao buscar repositórios:", error);
+        console.error("Error fetching repositories from GitHub, using mocked data:", error);
+        setRepos(mockData as TRepos[]);
       }
     }
     fetchRepositories();
